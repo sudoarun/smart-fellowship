@@ -3,12 +3,21 @@ import Navbar from "../Header/Navbar";
 import "./Home.css";
 import image1 from "../../assets/image1.png";
 import SectionsThird from "./SectionsThird";
+import { useEffect, useState } from "react";
 
 const Home = () => {
+  const [isMobile, setIsmobile] = useState(false);
+  const handleResize = () => {
+    setIsmobile(window.outerWidth < 500);
+  };
+  useEffect(() => {
+    handleResize();
+  }, []);
+  // console.log(isMobile);
   return (
     <div>
       <Navbar />
-      <section className="choosenSection">
+      <section className={isMobile ? "choosenSectionMob" : "choosenSection"}>
         <div className="container">
           <div className="choosenContentHeader">
             <span className="choosenHeader">
@@ -26,23 +35,29 @@ const Home = () => {
               <hr />
               <span className="d-block">GRADUATE WITH A Certificate</span>
             </div>
+            <span>
+              There is no fee, selected{" "}
+              <span className="gradientSpan">#SmartNaaris</span> from <br />{" "}
+              Lucknow and Ayodhya will be awarded a scholarship
+            </span>
           </div>
         </div>
       </section>
 
-      <section className="sectionTwo">
-        <div className="container sectionTwo">
-          <div className="row align-items-center">
-            <div className="col-7">
+      <section className="container">
+        <div className=" sectionTwo">
+          <div className="row align-items-center flex-lg-row flex-column-reverse">
+            <div className="col-12 col-lg-7">
               <img
                 src={image1}
                 alt="leftImage"
                 className="img-fluid sectionTwo__image"
               />
             </div>
-            <div className="col-5 p-4">
+            <div className="col-12 col-lg-5 p-4">
               <h3 className="right-colum__heading">
-                <span>What</span> is The Smart Fellowship?
+                <span className="gradientSpan">What</span> is The Smart
+                Fellowship?
               </h3>
               <br />
               <p className="right-column__paragraph">
@@ -53,17 +68,24 @@ const Home = () => {
                 thinking in addition to technical skills.
                 <br />
                 <br />
-                Through immersive <span>roleplay experiences</span>, you
+                Through immersive{" "}
+                <span className="gradient-text">roleplay experiences</span>, you
                 <br />
-                master <span>8+ futuristic soft skills</span> that empower you
+                master{" "}
+                <span className="gradient-text">
+                  8+ futuristic soft skills
+                </span>{" "}
+                that empower you
                 <br /> to work alongside artificial intelligence, rather than be
                 <br /> replaced by it.
                 <br />
                 <br />
-                Acceptance into the program is selective and based on
-                <br /> a competitive process. However, there is{" "}
-                <span>no fee</span> for
-                <br /> those chosen.
+                <span className="d-none d-d-lg-inline">
+                  Acceptance into the program is selective and based on
+                  <br /> a competitive process. However, there is{" "}
+                  <span className="gradient-text">no fee</span> for
+                  <br /> those chosen.
+                </span>
               </p>
               <hr />
             </div>

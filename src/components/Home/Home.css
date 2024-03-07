@@ -3,13 +3,12 @@
   display: flex;
   gap: 30px;
   padding: 30px;
-
 }
 
 .sectionTwo__image {
-    height: 434px;
-    width: 621px;
-    margin-left: 5px;
+  height: 434px;
+  width: 621px;
+  margin-left: 5px;
 }
 
 .right-colum__heading {
@@ -19,20 +18,14 @@
   font-family: Magistral Cond;
 }
 
-span {
-  color: rgba(255, 131, 16, 1);
-}
-
 .right-column__paragraph {
   font-size: 18px;
   font-weight: 400;
   color: #fdfdfd;
   font-style: Magistral Cond;
-
 }
 
-
 hr {
-    background: linear-gradient(to right, #FFB31F, #FFB31F00);
-    height: 2px;
+  background: linear-gradient(to right, #ffb31f, #ffb31f00);
+  height: 2px;
 }

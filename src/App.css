@@ -24,15 +24,34 @@
   background-image: url("../public/choosenSectionBg.png");
   color: white;
   height: 800px;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+}
+.choosenSectionMob {
+  background-image: url("../public/Landing-PageMob.png");
+  color: white;
+  height: 620px;
+  background-repeat: no-repeat;
+  background-size: 440px 570px;
 }
 .gradient-text {
   background: linear-gradient(to right, #ff8310, #ff217e);
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.gradientSpan {
+  background: linear-gradient(to right, #ff8310, #ff217e);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
 .choosenContentHeader {
   width: 691px;
   padding-top: 130px;
+}
+.choosenContentHeader:last-child {
+  font-size: 20px;
+  line-height: 20px;
 }
 .choosenHeader {
   font-size: 52px;
@@ -49,6 +68,7 @@
   width: 461px;
   margin-top: 100px;
   text-transform: uppercase;
+  padding-bottom: 20px;
 }
 hr {
   background-image: linear-gradient(90deg, red, transparent);
@@ -62,9 +82,63 @@ hr {
     width: 100%;
     margin-top: 100px;
     text-transform: uppercase;
+    padding-top: 230px;
+    padding-bottom: 20px;
   }
   .choosenContentHeader {
     width: 100%;
-    padding-top: 130px;
+    padding-top: 24px;
+  }
+  .choosenHeader {
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  .choosenContentHeader > div > span {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .choosenContentHeader:last-child {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .choosenContentHeader > p {
+    margin-top: 30px;
+    font-size: 16px;
+    line-height: 18px;
+    color: #d9d9d9;
+    font-weight: 400;
+  }
+  .gradientSpan {
+    background: linear-gradient(to right, #ff8310, #ff217e);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+  }
+  .sectionTwo {
+    padding: 0 !important;
+    padding-top: 45px !important;
+  }
+  .main-container {
+    display: block !important;
+  }
+  .left {
+    width: 100% !important;
+    margin-left: 15px;
+    margin-top: 40px;
+  }
+  .para-text {
+    font-size: 12px;
+    line-height: 18px !important;
+  }
+  .para-text > span {
+    font-size: 12px;
+    line-height: 18px !important;
+  }
+  .right {
+    width: auto !important;
+    height: 365px !important;
+    margin-top: 16px;
+    margin-left: 16px;
   }
 }
