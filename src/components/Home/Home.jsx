@@ -2,6 +2,7 @@ import Footer from "./Footer/Footer";
 import Navbar from "../Header/Navbar";
 import "./Home.css";
 import image1 from "../../assets/image1.png";
+import SectionsThird from "./SectionsThird";
 
 const Home = () => {
   return (
@@ -28,6 +29,7 @@ const Home = () => {
           </div>
         </div>
       </section>
+
       <section className="sectionTwo">
         <div className="container sectionTwo">
           <div className="row align-items-center">
@@ -68,6 +70,7 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <SectionsThird />
       <Footer />
     </div>
   );
