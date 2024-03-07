@@ -1,0 +1,22 @@
+.navbarLi > li {
+  margin: 0 15px;
+  cursor: pointer;
+  color: white;
+  list-style: none;
+}
+.navbar {
+  background-color: #2109134d;
+}
+.nav-logo {
+  height: 84px;
+}
+.bg-gradientStyle {
+  background: linear-gradient(to right, #ff8310, #ff217e) !important;
+}
+.navBtnApply {
+  height: 43px;
+  width: 110px;
+  border-radius: 6px;
+  color: white;
+  border: 0;
+}
