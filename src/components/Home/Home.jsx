@@ -1,9 +1,12 @@
 import React from "react";
+import Footer from "./Footer/Footer";
 import Navbar from "../Header/Navbar";
 
 const Home = () => {
   return (
     <div>
+      
+      <Footer></Footer>
       <Navbar />
       <section className="choosenSection">
         <div className="container">
