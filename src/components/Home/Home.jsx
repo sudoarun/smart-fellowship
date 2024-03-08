@@ -30,9 +30,9 @@ const Home = () => {
             </p>
             <div>
               <span className="d-block">Learn 8+ Futuristic Soft Skills</span>
-              <hr />
+              <hr className="hr-gradient" />
               <span className="d-block">40 Hours ON Weekends only</span>
-              <hr />
+              <hr className="hr-gradient" />
               <span className="d-block">GRADUATE WITH A Certificate</span>
             </div>
             <span>

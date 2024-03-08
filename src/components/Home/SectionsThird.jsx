@@ -3,7 +3,7 @@ import "../../components/Home/section-third.css";
 
 const SectionsThird = () => {
   return (
-    <div className="main-container">
+    <div className="main-container container">
       <div className="left">
         <div className="heading">
           <span className="linear-g">Who</span> is it for?
