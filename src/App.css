@@ -76,6 +76,30 @@ hr {
   border: 0 !important;
   height: 1px;
 }
+.sponser-analysis {
+  background: linear-gradient(to right, #ff217e, #ff8310);
+  text-transform: uppercase;
+  padding: 18px;
+  margin-bottom: 70px;
+}
+.sponser-analysis-main > h1 {
+  font-size: 20px;
+  line-height: 33px;
+  width: 75%;
+  text-align: center;
+}
+.sponser-analysis-main > div {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+}
+.analysisFont > span:first-child {
+  font-size: 58px;
+}
+.analysisFont > span:last-child {
+  font-size: 20px;
+  color: #001a34;
+}
 
 @media screen and (max-width: 500px) {
   .choosenContentHeader > div {
@@ -140,5 +164,23 @@ hr {
     height: 365px !important;
     margin-top: 16px;
     margin-left: 16px;
+  }
+  .sponser-analysis-main > div {
+    width: 95%;
+  }
+  .sponser-analysis-main > h1 {
+    font-size: 10px;
+    line-height: 20px;
+    width: unset;
+  }
+  .analysisFont > span:first-child {
+    font-size: 24px;
+  }
+  .analysisFont > span:last-child {
+    font-size: 10px;
+  }
+  .sponser-analysis {
+    margin-top: 50px;
+    margin-bottom: 0;
   }
 }

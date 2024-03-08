@@ -92,6 +92,30 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <section>
+        <div className="sponser-analysis">
+          <div className="container text-white sponser-analysis-main d-flex justify-content-center flex-column align-items-center">
+            <h1>
+              fully sponsored training program that gives you a unique advantage
+              in career success
+            </h1>
+            <div>
+              <span className="d-flex justify-content-center flex-column align-items-center analysisFont">
+                <span>50,000+</span>
+                <span>Learners</span>
+              </span>
+              <span className="d-flex justify-content-center flex-column align-items-center analysisFont">
+                <span>40+</span>
+                <span>institution</span>
+              </span>
+              <span className="d-flex justify-content-center flex-column align-items-center analysisFont">
+                <span>85%</span>
+                <span>placement preference</span>
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
       <SectionsThird />
       <Footer />
     </div>

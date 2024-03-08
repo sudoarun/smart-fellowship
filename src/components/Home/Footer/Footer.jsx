@@ -6,7 +6,9 @@ function Footer() {
     <>
       <div className="footer ">
         <div>
-          <button className="button-box">Learning Experience &gt; </button>
+          <span>
+            <button className="button-box">Learning Experience &gt; </button>
+          </span>
         </div>
         <div className="bottom-footer-box">
           <div className="container-f">
