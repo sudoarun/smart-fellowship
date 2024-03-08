@@ -17,6 +17,8 @@ const Home = () => {
   return (
     <div>
       <Navbar />
+    
+
       <section className={isMobile ? "choosenSectionMob" : "choosenSection"}>
         <div className="container">
           <div className="choosenContentHeader">
