@@ -13,12 +13,9 @@ const Home = () => {
   useEffect(() => {
     handleResize();
   }, []);
-  // console.log(isMobile);
   return (
     <div>
       <Navbar />
-    
-
       <section className={isMobile ? "choosenSectionMob" : "choosenSection"}>
         <div className="container">
           <div className="choosenContentHeader">
@@ -46,7 +43,8 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="container">
+      <section className="container position-relative">
+        {/* <img src="/gradien-half-left.svg" className="position-absolute" /> */}
         <div className=" sectionTwo">
           <div className="row align-items-center flex-lg-row flex-column-reverse">
             <div className="col-12 col-lg-7">
@@ -58,7 +56,7 @@ const Home = () => {
             </div>
             <div className="col-12 col-lg-5 p-4">
               <h3 className="right-colum__heading">
-                <span className="gradientSpan">What</span> is The Smart
+                <span className="gradientSpan fw-bold">What</span> is The Smart
                 Fellowship?
               </h3>
               <br />
