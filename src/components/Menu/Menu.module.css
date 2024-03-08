@@ -1,0 +1,23 @@
+.menuSection{
+   background-color: #140F35;
+   color: #F8F8F8;
+   width: 360px;
+   height: 607px;
+   display: block;
+}
+.icon{
+  float: right;
+  margin-bottom: 20px;
+  
+}
+.cancelimg{
+    width:24px;
+    height:24px;
+}
+.items{
+    margin-left: 20px;
+    padding: 20px; 
+}
+.item{
+    padding-bottom: 20px;
+}
