@@ -3,7 +3,7 @@ import "./Footer.css";
 
 function Footer() {
   return (
-    <section className="mt-5 pb-3">
+    <section className="mt-5 pb-3 footer">
       <div className="container">
         <div className="d-flex justify-content-end">
           <button className="button-box">

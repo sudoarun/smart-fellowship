@@ -1,17 +1,14 @@
-import React from 'react'
+import React from "react";
 import styles from "./Apply.module.css";
 function Apply() {
   return (
     <div className={styles.Apply}>
-      
-      <p className={styles.Register}>Register Now!</p>
+      <span className={styles.Register}>Register Now!</span>
       <button className="bg-gradientStyle navBtnApply" type="button">
-                Apply
-              </button>
-            
-            
+        Apply
+      </button>
     </div>
-  )
+  );
 }
 
-export default Apply
+export default Apply;

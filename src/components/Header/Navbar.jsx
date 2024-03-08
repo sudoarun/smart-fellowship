@@ -5,7 +5,7 @@ const Navbar = () => {
   const [isBreadCrumb, setIsBreadCrumb] = useState(false);
   return (
     <>
-      <div className="navbar d-lg-block d-none position-relative">
+      <div className="navbar d-lg-block d-none position-fixed top-0 w-100">
         <div className="d-flex justify-content-between container align-items-center py-2 ">
           <div className="d-flex gap-5">
             <img src="/smart_logo.svg" className="nav-logo" alt="logo" />
@@ -24,7 +24,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      <div className="d-flex d-lg-none justify-content-between align-items-center p-3">
+      <div className="d-flex d-lg-none justify-content-between align-items-center p-3 position-fixed w-100 navbarMobile top-0">
         <img src="/mobileLogo.png" />
         <div>
           <img src="/breadcrumb.svg" onClick={() => setIsBreadCrumb(true)} />

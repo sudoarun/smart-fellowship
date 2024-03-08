@@ -7,6 +7,9 @@
 .navbar {
   background-color: #2109134d;
 }
+.navbarMobile {
+  background: #140f35;
+}
 .nav-logo {
   height: 84px;
 }
@@ -26,13 +29,15 @@
   height: 800px;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-top: 50px;
 }
 .choosenSectionMob {
   background-image: url("../public/Landing-PageMob.png");
   color: white;
-  height: 620px;
+  height: 645px;
   background-repeat: no-repeat;
   background-size: 440px 570px;
+  margin-top: 70px;
 }
 .gradient-text {
   background: linear-gradient(to right, #ff8310, #ff217e);
@@ -188,5 +193,8 @@
   .sponser-analysis {
     margin-top: 50px;
     margin-bottom: 0;
+  }
+  .footer {
+    margin-bottom: 80px;
   }
 }

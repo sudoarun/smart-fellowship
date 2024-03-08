@@ -16,7 +16,9 @@ const Home = () => {
   return (
     <div>
       <Navbar />
-      <section className={isMobile ? "choosenSectionMob" : "choosenSection"}>
+      <section
+        className={`${isMobile ? "choosenSectionMob" : "choosenSection"} `}
+      >
         <div className="container">
           <div className="choosenContentHeader">
             <span className="choosenHeader">
@@ -43,7 +45,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="container position-relative">
+      <section className="container ">
         {/* <img src="/gradien-half-left.svg" className="position-absolute" /> */}
         <div className=" sectionTwo">
           <div className="row align-items-center flex-lg-row flex-column-reverse">
