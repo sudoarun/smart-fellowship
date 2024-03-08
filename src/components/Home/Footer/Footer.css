@@ -61,3 +61,30 @@
 /* .bottom-footer-box{
     border-top: 1px solid #fff;
 } */
+
+@media screen and (max-width: 500px) {
+  .container1 {
+    width: 100%;
+  }
+  .logo {
+    justify-content: center;
+  }
+  .data > h3 {
+    font-size: 14px;
+    text-align: center;
+  }
+  .container-f {
+    display: inherit;
+  }
+  .logo > img:last-child {
+    height: 83px;
+    width: 90px;
+  }
+  .logo > img:first-child {
+    width: 140px !important;
+    height: 80px !important;
+  }
+  .data {
+    width: 100%;
+  }
+}

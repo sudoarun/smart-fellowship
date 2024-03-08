@@ -4,7 +4,7 @@ import "./Footer.css";
 function Footer() {
   return (
     <>
-      <div className="footer d-none d-lg-block">
+      <div className="footer ">
         <div>
           <button className="button-box">Learning Experience &gt; </button>
         </div>
