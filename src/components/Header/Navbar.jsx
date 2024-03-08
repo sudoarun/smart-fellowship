@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
+import Menu from "./Menu";
 
 const Navbar = () => {
+  const [isBreadCrumb, setIsBreadCrumb] = useState(false);
   return (
     <>
-      <div className="navbar d-lg-block d-none">
+      <div className="navbar d-lg-block d-none position-relative">
         <div className="d-flex justify-content-between container align-items-center py-2 ">
           <div className="d-flex gap-5">
             <img src="/smart_logo.svg" className="nav-logo" alt="logo" />
@@ -25,8 +27,9 @@ const Navbar = () => {
       <div className="d-flex d-lg-none justify-content-between align-items-center p-3">
         <img src="/mobileLogo.png" />
         <div>
-          <img src="/breadcrumb.svg" />
+          <img src="/breadcrumb.svg" onClick={() => setIsBreadCrumb(true)} />
           {/* <img src="/cancel.svg" /> */}
+          {isBreadCrumb ? <Menu setMenu={setIsBreadCrumb} /> : ""}
         </div>
       </div>
     </>
