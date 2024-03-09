@@ -1,0 +1,112 @@
+.MainBox{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: #FFFFFF;
+    font-size: 22px;
+    border-bottom: 1px solid #FF217E;
+}
+
+.ContentBox{
+    width:100%;
+    height:1084px;
+    margin-top: 20px;
+    display: flex;
+    margin-left: 10%;
+}
+.page2img{
+    width:602px;
+    height:1082px;
+}
+.TextContainer{
+    color:#fff;
+    margin-left: 10px;
+   
+}
+.What{
+    background: linear-gradient(to right, #FF8310, #FF217E); /* Define your gradient colors */
+  -webkit-background-clip: text; /* For Safari */
+  background-clip: text;
+  color: transparent; /* Make the text transparent */
+  -webkit-mask-image: linear-gradient(to right, #fff, #fff); /* Use the same gradient colors as the text */
+  mask-image: linear-gradient(to right, #fff, #fff);
+}
+.b1{
+    font-size: 38px;
+   
+   
+}
+.imgs2{
+    margin-top: 20px;
+    display: flex;
+    
+
+}
+
+.img1{
+    width: 242px;
+    height: 348px;
+    font-size: 16px;
+    display: grid;
+    padding:10px;
+    /* border:1px solid #FF217E ; */
+    border: 1px solid transparent;
+    background: linear-gradient( #3a2a4e, #49204d) padding-box,
+      linear-gradient(to top, #ff8310, #ff217e) border-box;
+    border-radius: 5px;
+}
+.img1svg{
+    float: right;
+}
+.img2{
+    margin-top: 31%;
+    margin-left: 5%;
+    width: 260px;
+    height: 193px;
+    font-size: 16px;
+    display: grid;
+    padding:10px;
+    /* border:1px solid #FF217E ; */
+    border: 1px solid transparent;
+    background: linear-gradient(#3a2a4e, #49204d) padding-box,
+      linear-gradient(to top, #ff8310, #ff217e) border-box;
+    border-radius: 5px;
+}
+.img3{
+    margin-top:24%;
+    width: 449px;
+    height: 219px;
+    font-size: 16px;
+    display: grid;
+    padding:10px;
+    /* border:1px solid #FF217E ; */
+    border: 1px solid transparent;
+    background: linear-gradient(#3a2a4e, #49204d) padding-box,
+      linear-gradient(to top, #ff8310, #ff217e) border-box;
+    border-radius: 5px;
+}
+.img4{
+    margin-top:16%;
+    margin-left:15%;
+    width: 470px;
+    height: 210px;
+    font-size: 16px;
+    display: grid;
+    padding:10px;
+    /* border:1px solid #FF217E ; */
+    border: 1px solid transparent;
+    background: linear-gradient(#3a2a4e, #49204d) padding-box,
+      linear-gradient(to top, #ff8310, #ff217e) border-box;
+    border-radius: 5px;
+}
+.heading{
+    background: linear-gradient(to right, #FF8310, #FF217E); /* Define your gradient colors */
+    -webkit-background-clip: text; /* For Safari */
+    background-clip: text;
+    color: transparent; /* Make the text transparent */
+    -webkit-mask-image: linear-gradient(to right, #fff, #fff); /* Use the same gradient colors as the text */
+    mask-image: linear-gradient(to right, #fff, #fff);
+    font-size: 18px;
+}
