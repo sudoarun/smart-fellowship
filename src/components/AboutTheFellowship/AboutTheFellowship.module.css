@@ -1,0 +1,91 @@
+.MainBox{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: #FFFFFF;
+    font-size: 22px;
+    border-bottom: 1px solid #FF217E;
+    padding: 10px;
+}
+.MainContainer{
+    display: flex;
+    padding:10%;
+}
+.TextContainer{
+    width:600px;
+    height:620px;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.imageContainer{
+    width:600px;
+    height:620px;
+    
+}
+.Title{
+    background: linear-gradient(to right, #FF8310, #FF217E); /* Define your gradient colors */
+    -webkit-background-clip: text; /* For Safari */
+    background-clip: text;
+    color: transparent; /* Make the text transparent */
+    -webkit-mask-image: linear-gradient(to right, #fff, #fff); /* Use the same gradient colors as the text */
+    mask-image: linear-gradient(to right, #fff, #fff);
+    font-size: 32px;
+}
+.AboutUs{
+    width:580px;
+    height:600px;
+}
+.colortext{
+    background: linear-gradient(to right, #FF8310, #FF217E); /* Define your gradient colors */
+    -webkit-background-clip: text; /* For Safari */
+    background-clip: text;
+    color: transparent; /* Make the text transparent */
+    -webkit-mask-image: linear-gradient(to right, #fff, #fff); /* Use the same gradient colors as the text */
+    mask-image: linear-gradient(to right, #fff, #fff);
+}
+
+
+
+.TextWithLine{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  .line1{
+    width: 240px;
+    height: 2px; 
+   
+    background-image: linear-gradient(270deg,#FF8310, transparent);
+  
+    border: 0 !important;
+  }
+  .line2{
+    width: 240px;
+    height: 2px;
+    background-image: linear-gradient(90deg, #FF217E, transparent);
+  
+    border: 0 !important;
+  }
+  .content{
+    padding:10px;
+    color: #fff;
+    font-size: 38px;
+   
+  }
+  .coloured{
+    background: linear-gradient(to right, #FF8310, #FF217E);
+    -webkit-background-clip: text; 
+    background-clip: text;
+    color: transparent;
+    -webkit-mask-image: linear-gradient(to right, #fff, #fff);
+    mask-image: linear-gradient(to right, #fff, #fff);
+  }
+  .centretext{
+    text-align: center;
+    color:white;
+    padding: 60px;
+    font-size: 20px;
+  }

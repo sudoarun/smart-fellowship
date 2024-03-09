@@ -23,96 +23,102 @@ function WhatYouLearn() {
             <div>
               <div className={styles.img1}>
                 <div>
-                <img
-                  className={styles.img1svg}
-                  src="img1svg.svg"
-                  alt="img2"
-                ></img>
+                  <img
+                    className={styles.img1svg}
+                    src="img1svg.svg"
+                    alt="img2"
+                  ></img>
                 </div>
                 <div>
-                <span className={styles.heading}><b>8+ SOFT SKILLS</b></span>
-                <hr />
-                <span>Creative Problem Solving</span>
-                <br/>
-                <span>Smart Thinking</span>
-                <br/>
-                <span>Storytelling</span>
-                <br/>
-                <span>Negotiation</span>
-                <br/>
-                <span>Emotional Intelligence</span>
-                <br/>
-                <span>Collaboration</span>
-                <br/>
-                <span>Productivity Management</span>
-                <br/>
-                <span>Remote Communication</span>
-                <br/>
+                  <span className={styles.heading}>
+                    <b>8+ SOFT SKILLS</b>
+                  </span>
+                  <hr />
+                  <span>Creative Problem Solving</span>
+                  <br />
+                  <span>Smart Thinking</span>
+                  <br />
+                  <span>Storytelling</span>
+                  <br />
+                  <span>Negotiation</span>
+                  <br />
+                  <span>Emotional Intelligence</span>
+                  <br />
+                  <span>Collaboration</span>
+                  <br />
+                  <span>Productivity Management</span>
+                  <br />
+                  <span>Remote Communication</span>
+                  <br />
                 </div>
               </div>
             </div>
             <div className={styles.img2}>
-            <div>
+              <div>
                 <img
                   className={styles.img1svg}
                   src="img2svg.svg"
                   alt="img2"
                 ></img>
-                </div>
-                <div>
-                <span className={styles.heading}><b>DIGITAL SKILLS</b></span>
+              </div>
+              <div>
+                <span className={styles.heading}>
+                  <b>DIGITAL SKILLS</b>
+                </span>
                 <hr />
                 <span>Using ChatGPT/ A.I Effectively</span>
-                <br/>
+                <br />
                 <span>Miro Board</span>
-                
-                </div>
+              </div>
             </div>
           </div>
           <div className={styles.img3}>
-          <div>
-                <img
-                  className={styles.img1svg}
-                  src="img3svg.svg"
-                  alt="img3"
-                ></img>
-                </div>
-                <div>
-                <span className={styles.heading}><b>PLACEMENT SUPPORT</b></span>
-                <hr />
-                <span>Creating a world-class resume to impress employers</span>
-                <br/><span>  Optimizing LinkedIn profile to attract growth opportunities</span>
-                <br/><span>     Mastering job-search strategies to land your dream job</span>
-
-               
-                
-                </div>
-
-
-
-            
+            <div>
+              <img
+                className={styles.img1svg}
+                src="img3svg.svg"
+                alt="img3"
+              ></img>
+            </div>
+            <div>
+              <span className={styles.heading}>
+                <b>PLACEMENT SUPPORT</b>
+              </span>
+              <hr />
+              <span>Creating a world-class resume to impress employers</span>
+              <br />
+              <span>
+                {" "}
+                Optimizing LinkedIn profile to attract growth opportunities
+              </span>
+              <br />
+              <span>
+                {" "}
+                Mastering job-search strategies to land your dream job
+              </span>
+            </div>
           </div>
           <div className={styles.img4}>
-          <div>
-                <img
-                  className={styles.img1svg}
-                  src="img4svg.svg"
-                  alt="img4"
-                ></img>
-                </div>
-                <div>
-                <span className={styles.heading}><b>UNLOCKING THE FEMALE POTENTIAL</b></span>
-                <hr />
-                <span>Tapping into the power of nutrition to boost productivity</span>
-                <br/><span>Building a work-life balance lifestyle for working women</span>
-               
-
-               
-                
-                </div>
-
-
-
+            <div>
+              <img
+                className={styles.img1svg}
+                src="img4svg.svg"
+                alt="img4"
+              ></img>
+            </div>
+            <div>
+              <span className={styles.heading}>
+                <b>UNLOCKING THE FEMALE POTENTIAL</b>
+              </span>
+              <hr />
+              <span>
+                Tapping into the power of nutrition to boost productivity
+              </span>
+              <br />
+              <span>
+                Building a work-life balance lifestyle for working women
+              </span>
+            </div>
           </div>
         </div>
       </div>
