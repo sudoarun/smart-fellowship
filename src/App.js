@@ -1,9 +1,14 @@
-import './App.css';
-
+import { Route, Routes } from "react-router-dom";
+import "./App.css";
+import HomePage from "./pages/Home";
+import LearningExperience from "./pages/LearningExperience";
 function App() {
   return (
-    <div className="App">
-     
+    <div>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/learning" element={<LearningExperience />} />
+      </Routes>
     </div>
   );
 }

@@ -1,0 +1,66 @@
+.button-box {
+  color: #d9d9d9;
+  background: linear-gradient(#140f35, #140f35) padding-box,
+    linear-gradient(to top, #ff8310, #ff217e) border-box;
+  border-radius: 6px;
+  border: 1px solid transparent;
+  padding: 4px 8px;
+}
+
+.footer-main {
+  margin-top: 50px;
+}
+.logo > img:first-child {
+  width: 185px;
+  height: 120px;
+}
+.logo > img:last-child {
+  width: 116px;
+  height: 100px;
+}
+.note > p {
+  font-size: 22px;
+  line-height: 22px;
+  margin-top: 15px;
+}
+.footer-main > hr {
+  border: 1px solid #ffffff;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.bottom-line {
+  line-height: 16px;
+}
+.h6FontSize > div > div > h6 {
+  font-weight: 400;
+  color: #606060;
+}
+.h6FontSize > div > div > h6:first-child {
+  font-weight: 500;
+  color: inherit;
+}
+
+@media screen and (max-width: 500px) {
+  .note > p {
+    font-size: 15px;
+    line-height: 15px;
+    text-align: center;
+  }
+  .h6FontSize > div > div > h6 {
+    font-size: 14px !important;
+  }
+  .logo {
+    justify-content: center;
+  }
+  .h6FontSize {
+    margin-top: 14px !important;
+  }
+  .bottom-line {
+    font-size: 8px;
+    line-height: 10px;
+  }
+  .footer-main {
+    margin-top: 30px;
+  }
+}

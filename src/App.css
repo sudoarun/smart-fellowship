@@ -1,38 +1,200 @@
-.App {
+.navbarLi > li {
+  margin: 0 15px;
+  cursor: pointer;
+  color: white;
+  list-style: none;
+}
+.navbar {
+  background-color: #2109134d;
+}
+.navbarMobile {
+  background: #140f35;
+}
+.nav-logo {
+  height: 84px;
+}
+.bg-gradientStyle {
+  background: linear-gradient(to right, #ff8310, #ff217e) !important;
+}
+.navBtnApply {
+  height: 43px;
+  width: 110px;
+  border-radius: 6px;
+  color: white;
+  border: 0;
+}
+.choosenSection {
+  background-image: url("../public/choosenSectionBg.png");
+  color: white;
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 50px;
+}
+.choosenSectionMob {
+  background-image: url("../public/Landing-PageMob.png");
+  color: white;
+  height: 645px;
+  background-repeat: no-repeat;
+  background-size: 440px 570px;
+  margin-top: 70px;
+}
+.gradient-text {
+  background: linear-gradient(to right, #ff8310, #ff217e);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.gradientSpan {
+  background: linear-gradient(to right, #ff8310, #ff217e);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+.choosenContentHeader {
+  width: 691px;
+  padding-top: 130px;
+}
+.choosenContentHeader:last-child {
+  font-size: 20px;
+  line-height: 20px;
+}
+.choosenHeader {
+  font-size: 52px;
+  line-height: 52px;
+}
+.choosenContentHeader > p {
+  margin-top: 30px;
+  font-size: 28px;
+  line-height: 32px;
+  color: #d9d9d9;
+  font-weight: 400;
+}
+.choosenContentHeader > div {
+  width: 461px;
+  margin-top: 100px;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+.hr-gradient {
+  background-image: linear-gradient(90deg, red, transparent);
+
+  border: 0 !important;
+  height: 1px;
+}
+.sponser-analysis {
+  background: linear-gradient(to right, #ff217e, #ff8310);
+  text-transform: uppercase;
+  padding: 18px;
+  margin-bottom: 70px;
+}
+.sponser-analysis-main > h1 {
+  font-size: 20px;
+  line-height: 33px;
+  width: 75%;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.sponser-analysis-main > div {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  width: 60%;
+}
+.analysisFont > span:first-child {
+  font-size: 58px;
+}
+.analysisFont > span:last-child {
+  font-size: 20px;
+  color: #001a34;
+}
+.color-inherit {
+  color: inherit !important;
+}
+.pointer {
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width: 500px) {
+  .choosenContentHeader > div {
+    width: 100%;
+    margin-top: 100px;
+    text-transform: uppercase;
+    padding-top: 230px;
+    padding-bottom: 20px;
   }
-  to {
-    transform: rotate(360deg);
+  .choosenContentHeader {
+    width: 100%;
+    padding-top: 24px;
+  }
+  .choosenHeader {
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  .choosenContentHeader > div > span {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .choosenContentHeader:last-child {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .choosenContentHeader > p {
+    margin-top: 30px;
+    font-size: 16px;
+    line-height: 18px;
+    color: #d9d9d9;
+    font-weight: 400;
+  }
+  .gradientSpan {
+    background: linear-gradient(to right, #ff8310, #ff217e);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+  }
+  .sectionTwo {
+    padding: 0 !important;
+    padding-top: 45px !important;
+  }
+  .main-container {
+    display: block !important;
+  }
+  .left {
+    width: 100% !important;
+    margin-left: 15px;
+    margin-top: 40px;
+  }
+  .para-text {
+    font-size: 12px;
+    line-height: 18px !important;
+  }
+  .para-text > span {
+    font-size: 12px;
+    line-height: 18px !important;
+  }
+  .right {
+    width: auto !important;
+    height: 365px !important;
+    margin-top: 16px;
+    margin-left: 16px;
+  }
+  .sponser-analysis-main > div {
+    width: 95%;
+  }
+  .sponser-analysis-main > h1 {
+    font-size: 10px;
+    line-height: 20px;
+    width: unset;
+  }
+  .analysisFont > span:first-child {
+    font-size: 24px;
+  }
+  .analysisFont > span:last-child {
+    font-size: 10px;
+  }
+  .sponser-analysis {
+    margin-top: 50px;
+    margin-bottom: 0;
+  }
+  .footer {
+    margin-bottom: 80px;
   }
 }
